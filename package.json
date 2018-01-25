@@ -1,0 +1,16 @@
+{
+  "name": "marketing_bot_01",
+  "version": "1.0.0",
+  "description": "Bot for marketing Professional Kitchen Timer.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Newman",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "eslint": "^4.15.0",
+    "twit": "^2.2.9"
+  }
+}
