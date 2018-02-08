@@ -9,7 +9,7 @@ const queries = require("./queries.js");
 
 const Twitter = new Twit(config);
 
-const PKT_URL = "https://play.google.com/store/apps/details?id=com.professionalkitchentimer.iinewmanii.professionalkitchentimer&hl=en";
+const PKT_GOOGLE_URL = "https://play.google.com/store/apps/details?id=com.professionalkitchentimer.iinewmanii.professionalkitchentimer&hl=en";
 
 exports.twitterBot = function() {
 	// Query Twitter
@@ -198,7 +198,7 @@ exports.listen = function() {
 
         statusUpdate("@" + screenName +
             " Thank you for the follow! Be sure to check out Professional Kitchen Timer on Google Play. " +
-            PKT_URL);
+            PKT_GOOGLE_URL);
 	}
 
 	function statusUpdate(tweetText) {
